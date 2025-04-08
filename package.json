@@ -1,0 +1,32 @@
+{
+  "name": "myservice",
+  "version": "1.0.0",
+  "description": "Boilerplate for Typescript + Fastify + Postgres + sequelize",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshbawaskar/Service_BoilerPlate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riteshbawaskar/Service_BoilerPlate/issues"
+  },
+  "homepage": "https://github.com/riteshbawaskar/Service_BoilerPlate#readme",
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "fastify-plugin": "^4.5.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
